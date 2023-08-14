@@ -82,6 +82,7 @@ footer{
     display: flex;
     flex-direction: column;
     color: var(--clr-white);
+    padding-inline: 2rem;
     .nav{
         display: grid;
         a{
