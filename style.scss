@@ -17,6 +17,7 @@
 img{
     max-width: 100%;
 }
+
 .blue-txt{
     color: var(--clr-blue);
     font-weight: var(--font-700);
@@ -96,10 +97,17 @@ footer{
     padding-inline: 2rem;
     .nav{
         display: grid;
+        margin-top: 1rem;
         a{
             color: var(--clr-white);
             text-decoration: none;
         }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    .map{
+        display: none;
     }
 }
 
@@ -117,6 +125,31 @@ footer{
         }
         textarea{
             width: 500px;
+        }
+    }
+    footer{
+        flex-direction: row;
+        align-items: center;
+        padding-inline: 5rem;
+        gap: 3rem;
+        position: relative;
+        .info{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav{
+            gap: 1rem;
+        }
+        .map{
+            display: block;
+            iframe{
+                top: 0;
+                right: 0;
+                height: 150px;
+                max-width: 300px;
+                position: absolute;
+            }
         }
     }
 }

@@ -111,10 +111,17 @@ footer {
 }
 footer .nav {
   display: grid;
+  margin-top: 1rem;
 }
 footer .nav a {
   color: var(--clr-white);
   text-decoration: none;
+}
+footer .nav a:hover {
+  text-decoration: underline;
+}
+footer .map {
+  display: none;
 }
 
 @media (min-width: 1000px) {
@@ -132,5 +139,30 @@ footer .nav a {
   }
   form textarea {
     width: 500px;
+  }
+  footer {
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 5rem;
+    gap: 3rem;
+    position: relative;
+  }
+  footer .info {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .nav {
+    gap: 1rem;
+  }
+  footer .map {
+    display: block;
+  }
+  footer .map iframe {
+    top: 0;
+    right: 0;
+    height: 150px;
+    max-width: 300px;
+    position: absolute;
   }
 }/*# sourceMappingURL=style.css.map */
