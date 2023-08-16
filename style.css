@@ -75,8 +75,8 @@ article a {
   padding-inline: 2rem;
   margin: 1rem 0;
 }
-.contact label {
-  font-weight: var(--font-600);
+.contact .bold {
+  font-weight: 600;
 }
 .contact .input {
   display: flex;
@@ -115,4 +115,22 @@ footer .nav {
 footer .nav a {
   color: var(--clr-white);
   text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  p {
+    width: 75ch;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  form input {
+    height: 2rem;
+    width: 500px;
+  }
+  form textarea {
+    width: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
