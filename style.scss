@@ -9,6 +9,9 @@
     --font-400: 400;
     --font-300: 300;
 }
+.top{
+    margin-bottom: 4rem;
+}
 *{
     padding: 0;
     margin: 0;
@@ -108,6 +111,29 @@ footer{
     }
     .map{
         display: none;
+    }
+}
+
+/* APPROACH PAGE */
+.flex{
+    display: flex;
+    flex-direction: column;
+    .block{
+        background: var(--clr-darkGrey);
+        .txt-content{
+            padding: 1rem;
+            color: var(--clr-grey);        
+        } 
+    }
+    .bluebg{
+        background: var(--clr-blue);
+        .txt-content{
+            padding: 1rem;
+            color: white;
+            h3{
+                font-weight: var(--font-700)
+            }
+        }
     }
 }
 

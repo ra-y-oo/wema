@@ -10,6 +10,10 @@
   --font-300: 300;
 }
 
+.top {
+  margin-bottom: 4rem;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -122,6 +126,29 @@ footer .nav a:hover {
 }
 footer .map {
   display: none;
+}
+
+/* APPROACH PAGE */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.flex .block {
+  background: var(--clr-darkGrey);
+}
+.flex .block .txt-content {
+  padding: 1rem;
+  color: var(--clr-grey);
+}
+.flex .bluebg {
+  background: var(--clr-blue);
+}
+.flex .bluebg .txt-content {
+  padding: 1rem;
+  color: white;
+}
+.flex .bluebg .txt-content h3 {
+  font-weight: var(--font-700);
 }
 
 @media (min-width: 1000px) {
