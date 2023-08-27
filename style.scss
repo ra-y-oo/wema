@@ -119,10 +119,9 @@ footer{
     display: flex;
     flex-direction: column;
     .block{
-        background: var(--clr-darkGrey);
+        background: var(--clr-grey);
         .txt-content{
             padding: 1rem;
-            color: var(--clr-grey);        
         } 
     }
     .bluebg{
