@@ -100,11 +100,12 @@ article{
         margin: .5rem, 0;
         input, textarea{
             background-color: var(--clr-grey);
+            padding: .5rem;
             border: none;
         }
         input::placeholder, textarea::placeholder{
             color: var(--clr-darkGrey);
-            padding-inline: .5rem;
+            padding-inline: .3rem;
             font-weight: var(--font-300);
         }
         textarea{

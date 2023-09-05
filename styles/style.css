@@ -114,16 +114,17 @@ article a {
 }
 .contact .input input, .contact .input textarea {
   background-color: var(--clr-grey);
+  padding: 0.5rem;
   border: none;
 }
 .contact .input input::-moz-placeholder, .contact .input textarea::-moz-placeholder {
   color: var(--clr-darkGrey);
-  padding-inline: 0.5rem;
+  padding-inline: 0.3rem;
   font-weight: var(--font-300);
 }
 .contact .input input::placeholder, .contact .input textarea::placeholder {
   color: var(--clr-darkGrey);
-  padding-inline: 0.5rem;
+  padding-inline: 0.3rem;
   font-weight: var(--font-300);
 }
 .contact .input textarea {
