@@ -110,14 +110,16 @@
       <div class="contact">
           <h2 class="blue-txt">CONTACT US</h2>
           <h4 class="bold">We'd love to hear from you</h4>
-          <form action="">
+          <form action="https://formsubmit.co/wemahouseschool18@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="From wemahouse.com">
+            <input type="hidden" name="_captcha" value="false">
               <div class="input">
                   <label for="name">Name</label>
-                  <input type="text" id="name" placeholder="Name">
+                  <input type="text" id="name" placeholder="Name"  name="name" required>
               </div>
               <div class="input">
                   <label for="emai">Email</label>
-                  <input type="email" placeholder="youremail.com">
+                  <input name="email" type="email" placeholder="youremail.com" required>
               </div>
               <div class="input">
                   <label for="message">Message</label>
