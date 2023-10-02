@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -19,7 +19,7 @@
     <div class="top">
         <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
+              <a class="navbar-brand" href="./index.html">
                 <svg width="30" height="30" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M24.4177 23.2199V36.6051C24.3929 36.5918 24.367 36.5777 24.3401 36.563C24.0315 36.394 23.5881 36.133 23.0547 35.7675C21.9878 35.0365 20.5624 33.8885 19.1362 32.2246C17.3331 30.121 15.5245 27.1881 14.4397 23.2199H24.4177ZM14.426 22.9368V23.1696C13.8189 20.9315 13.442 18.3654 13.4253 15.4345L24.4177 11.7704V22.6536H14.426V22.9368ZM24.9839 22.6536V11.7704L35.9763 15.4345C35.9596 18.3654 35.5827 20.9315 34.9757 23.1696V22.9368V22.6536H24.9839ZM34.962 23.2199C33.8771 27.1881 32.0685 30.121 30.2654 32.2246C28.8392 33.8885 27.4138 35.0365 26.3469 35.7675C25.8135 36.133 25.3701 36.394 25.0615 36.563C25.0346 36.5777 25.0087 36.5918 24.9839 36.6051V23.2199H34.962Z" stroke="#00034C" stroke-width="0.566259"/>
                     <path d="M24.1871 11.8914L13.1416 15.6991L13.9995 22.68H24.1871V11.8914Z" fill="#00034C"/>
@@ -79,15 +79,15 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       About
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./ourstory.html">Our Story</a></li>
-                      <li><a class="dropdown-item" href="./approach.html">Our Approach</a></li>
+                      <li><a class="dropdown-item" href="./story.html">Our Story</a></li>
+                      <li><a class="dropdown-item" href="#">Our Approach</a></li>
                       <li><a class="dropdown-item" href="./careers.html">Careers</a></li>
                     </ul>
                   </li>
@@ -105,88 +105,100 @@
             </div>
           </nav>
     </div>
-    <div class="bg">
-        <img  class="img-mobile" src="../img/bg.png" alt="students learning">
-        <img class="img-desk" src="../img/bgLG.png" alt="students learning">
-    </div>
-    <div class="hero container">
-        <h1 class="head">
-            Keep Learning on Track at Wema
-        </h1>
-        <p class="hero-txt">
-            The Best Education for your Children Empowering Lifelong Learners for a Brighter Tommorrow.
-        </p>
-        <button>
-            Talk to us
-        </button>
-    </div>
-    <secction class="about">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/children.png" class="d-block w-100" alt="...">
+    
+    <section class="container">
+      <div>
+        <h1 class="blue-txt">Our Approach</h1>
+        <p>Welcome to WEMA’s unique approach to education! We 
+          believe that each student is a budding individual with 
+          distinct talents, interests, and potential. Our approach is 
+          designed to foster holistic growth, academic excellence, 
+          and personal development during these crucial years of 
+          your child's education journey.</p>
+      </div>
+    </section>
+    
+    <section class="approach">
+      <div class="flex container">
+        <div class="block container">
+          <div class="block-grey container">
+            <div class="text container">
+              <h3 class="blue-txt"> Parent and Community<br> Engagement</h3>
+              <p>Education is a partnership between the school, parents, and the community. We believe in open communication and collaboration. Regular parent-teacher meetings, workshops, and school events provide opportunities for parents to actively participate in their child's education and stay connected with our school community..</p>
+            </div>
+            </div>
+            <img src="./img/approach1.png" alt="">
+        </div>
+
+        <div class="block container">
+          <div class="block-blue container">
+            <div class="text container">
+              <h3>Personalized <br> Support</h3>
+              <p>Every student is on their unique educational journey. Our faculty and staff are committed to providing personalized support to help each student thrive. From academic advisors who track progress to counselors who provide emotional guidance, we ensure that your child receives the attention they need to succeed academically and emotionally..</p>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="./img/slide1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/slide2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/slide3.png" class="d-block w-100" alt="...">
-          </div>
+            <img src="./img/approach2.png" alt="">
         </div>
       </div>
-        <article class="container">
-            <h2 class="blue-txt">ABOUT US</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nobis doloremque sunt libero atque veniam? Pariatur cum quos, autem facere beatae nesciunt sunt harum! Illum ullam est commodi cum ipsam. <a href="#">More about us...</a></p>
-        </article>
-    </secction>
-    <secction>
-        <div class="contact container">
-            <h2 class="blue-txt">CONTACT US</h2>
-            <h4 class="bold">We'd love to hear from you</h4>
-            <form action="">
-                <div class="input">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Name">
-                </div>
-                <div class="input">
-                    <label for="emai">Email</label>
-                    <input type="email" placeholder="youremail.com">
-                </div>
-                <div class="input">
-                    <label for="message">Message</label>
-                    <textarea type="text" name="message" id="message" 
-                    placeholder="How can we help you..." rows="4" cols="50"></textarea>
-                </div>
-                <button>
-                    Send
-                </button>
-            </form>
-        </div>
-    </secction>
 
+      <div class="flex flex1 container">
+        <div class="block container">
+          <div class="block-blue container">
+            <div class="text container">
+              <h3>Technology <br> Integration</h3>
+              <p>In this digital age, we recognize the 
+                importance of preparing students for the 
+                future. Our school integrates technology into 
+                the learning process in meaningful ways. 
+                From interactive learning tools to digital 
+                research resources, students develop the 
+                digital literacy skills required to navigate the 
+                modern world.</p>
+            </div>
+          </div>
+            <img src="./img/approach3.png" alt="">
+        </div>
+
+        <div class="block container">
+          <div class="block-grey container">
+            <div class="text container">
+              <h3 class="blue-txt"> Character <br> Building</h3>
+              <p>Education is not only about academics; it's 
+                also about character development. Our 
+                school places a strong emphasis on fostering 
+                qualities like empathy, integrity, and 
+                responsibility. Through community service 
+                projects, leadership opportunities, and ethical 
+                discussions, we empower students to 
+                become compassionate and socially 
+                conscious individuals.</p>
+            </div>
+            </div>
+            <img src="./img/approach4.png" alt="">
+        </div>
+      </div>
+  </section>
+  
 </body>
 <footer>
-    <div class="nav">
-        <a href="./index.html">HOME</a>
-        <a href="./story.html">ABOUT</a>
-        <a href="./contact.html">CONTACT</a>
-    </div>
-    <hr>
-    <div class="info">
-        <p>Location:<br>On Gobei-Lwak road Bondo</p>
-        <p>Phone Number:<br>0726916214 / 0729281840</p>
-        <p>Email:<br>wemahouseschool18@gmail.com</p>
-    </div>
-    <div class="icons">
-      <a target="_blank" href="https://m.facebook.com/groups/3199631780182010/?ref=share&mibextid=KtfwRi"><img src="./img/icons8-facebook-48.png" alt="facebook icon"></a>
-      <a href="./contact.html"><img src="./img/icons8-gmail-logo-94.png" alt="facebook icon"></a>
-    </div>
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.72654655444416!2d34.317614769931836!3d-0.09893346743155323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d55bdd5cc9c365%3A0x7b1e6e83dac01be!2sWema%20House%20School!5e0!3m2!1sen!2ske!4v1692228250380!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+  <div class="nav">
+      <a href="./index.html">HOME</a>
+      <a href="./story.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+  </div>
+  <hr>
+  <div class="info">
+      <p>Location:<br>On Gobei-Lwak road Bondo</p>
+      <p>Phone Number:<br>0726916214 / 0729281840</p>
+      <p>Email:<br>wemahouseschool18@gmail.com</p>
+  </div>
+  <div class="icons">
+    <a target="_blank" href="https://m.facebook.com/groups/3199631780182010/?ref=share&mibextid=KtfwRi"><img src="./img/icons8-facebook-48.png" alt="facebook icon"></a>
+    <a href="./contact.html"><img src="./img/icons8-gmail-logo-94.png" alt="facebook icon"></a>
+  </div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.72654655444416!2d34.317614769931836!3d-0.09893346743155323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d55bdd5cc9c365%3A0x7b1e6e83dac01be!2sWema%20House%20School!5e0!3m2!1sen!2ske!4v1692228250380!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 
 </footer>
 </html>

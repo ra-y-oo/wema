@@ -3,7 +3,7 @@
     --clr-white: white;
     --clr-grey: #EFEFEF;
     --clr-darkGrey: #464646;
-    --clr-offwhite: rgb(248, 255, 255);
+    --clr-offwhite: #f8f9ff;
     --font-800: 800;
     --font-700: 700;
     --font-600: 600;
@@ -166,6 +166,7 @@ footer{
     .block-grey{
         background: var(--clr-grey);
         .text{
+            padding: 2rem;
             font-size: .8rem;
         }
     }
@@ -173,6 +174,7 @@ footer{
         background: var(--clr-blue);
         color: var(--clr-white);
             .text{
+                padding: 2rem;
                 font-size: .8rem;
                 h3{
                     font-weight: var(--font-700)
@@ -180,14 +182,34 @@ footer{
             }
         }
     }
+    .flex1{
+        flex-direction: column-reverse;
+    }
 
     /* CAREERS PAGE */
     /* Testimonial cards */
     .testimonial{
-        background: var(--clr-offwhite);
-        box-shadow: 0px 8px 16px var(--clr-grey);
+        background: var(--clr-blue);
+        max-width: 100%;
+        color: white;
+        padding: 1.5rem;
+        /* box-shadow: 0px 10px 16px var(--clr-grey);
         margin: .5rem 0;
-        padding: .5rem;
+        padding: .5rem; */
+        p{
+            font-weight: bold;
+        }
+        .profile{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            padding-block: .5rem;
+        }
+        img{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
     }
 /* PROGRAMES PAGE */
 .programmes{
@@ -220,6 +242,7 @@ footer{
         display: none;
     }
 /* APPROACH PAGE */
+
 .flex{
     flex-direction: row;
     gap: 0;
@@ -232,6 +255,8 @@ footer{
         }
     }
 }
+
+/*  */
     form{
         display: flex;
         flex-wrap: wrap;
