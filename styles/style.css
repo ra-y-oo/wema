@@ -211,8 +211,8 @@ footer .map {
 .testimonial {
   background: var(--clr-blue);
   color: var(--clr-offwhite);
-  padding: 1.5rem;
-  min-height: 150px;
+  padding: 2rem;
+  min-height: 250px;
   max-width: -moz-max-content;
   max-width: max-content;
   margin: 0.5rem 0;
@@ -223,9 +223,15 @@ footer .map {
   justify-content: center;
   flex-direction: column;
   gap: 0.8rem;
+  font-size: 0.7rem;
+  cursor: pointer;
 }
 .testimonial p {
   max-width: 50ch;
+}
+
+.testimonial:hover, .testimonial:active {
+  transform: scale(0.97);
 }
 
 /* PROGRAMES PAGE */
@@ -274,8 +280,9 @@ footer .map {
   /* Testimonial cards */
   .testimonials {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
+    justify-content: space-around;
   }
   .testimonials p {
     max-width: 42ch;

@@ -191,8 +191,8 @@ footer{
     .testimonial{
         background: var(--clr-blue);
         color: var(--clr-offwhite);
-        padding: 1.5rem;
-        min-height: 150px;
+        padding: 2rem;
+        min-height: 250px;
         max-width: max-content;
         margin: .5rem 0;
         padding: .5rem;
@@ -202,10 +202,16 @@ footer{
         justify-content: center;
         flex-direction: column;
         gap: .8rem;
+        font-size: .7rem;
+        cursor: pointer;
         p{
             max-width: 50ch;
         }
     }
+    .testimonial:hover, .testimonial:active{
+        transform: scale(0.97);
+    }
+    
 /* PROGRAMES PAGE */
 .programmes{
     display: flex;
@@ -253,8 +259,9 @@ footer{
 /* Testimonial cards */
 .testimonials{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
+    justify-content: space-around;
     p{
         max-width: 42ch;
     }
