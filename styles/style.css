@@ -223,7 +223,7 @@ footer .map {
   justify-content: center;
   flex-direction: column;
   gap: 0.8rem;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   cursor: pointer;
 }
 .testimonial p {
