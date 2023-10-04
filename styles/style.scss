@@ -193,7 +193,7 @@ footer{
         color: var(--clr-offwhite);
         padding: 2rem;
         min-height: 250px;
-        max-width: max-content;
+        min-width: max-content;
         margin: .5rem 0;
         padding: .5rem;
         text-align: center;
@@ -262,6 +262,10 @@ footer{
     gap: 3rem;
     align-items: center;
     justify-content: space-around;
+    .testimonial{
+        width: 500px;
+        height: 300px;
+    }
     p{
         max-width: 42ch;
     }
